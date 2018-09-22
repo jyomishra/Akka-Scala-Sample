@@ -3,7 +3,7 @@ package com.lightbend.akka.sample
 import akka.actor.ActorSystem
 import akka.routing.RoundRobinPool
 
-object MainAppNumberGenerator extends App {
+object MainAppWithNumberGenerator extends App {
 
   override def main(args: Array[String]): Unit = {
     val system = ActorSystem()
